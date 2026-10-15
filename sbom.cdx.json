@@ -1,0 +1,74 @@
+{
+  "bomFormat": "CycloneDX",
+  "specVersion": "1.5",
+  "serialNumber": "urn:uuid:adc95c56-371b-5d1a-af5b-a03e8dc2de2f",
+  "version": 1,
+  "metadata": {
+    "timestamp": "2026-10-05T16:04:28Z",
+    "component": {
+      "type": "application",
+      "name": "TORCHDRUG",
+      "version": "6066fbd82360",
+      "bom-ref": "pkg:generic/anticloud/TORCHDRUG@6066fbd82360",
+      "purl": "pkg:generic/anticloud/TORCHDRUG@6066fbd82360",
+      "licenses": [
+        {
+          "license": {
+            "id": "Apache-2.0"
+          }
+        }
+      ]
+    },
+    "properties": [
+      {
+        "name": "anticloud:source-commit",
+        "value": "6066fbd82360abb5f270cba1eca560af01b8cc90"
+      },
+      {
+        "name": "anticloud:source-url",
+        "value": "https://github.com/DeepGraphLearning/torchdrug"
+      },
+      {
+        "name": "anticloud:tier",
+        "value": "tier-agent"
+      }
+    ]
+  },
+  "components": [
+    {
+      "type": "library",
+      "name": "torch",
+      "version": ">=1.8.0",
+      "purl": "pkg:pypi/torch@1.8.0",
+      "bom-ref": "pypi/torch@>=1.8.0"
+    },
+    {
+      "type": "library",
+      "name": "torch-scatter",
+      "version": ">=2.0.8",
+      "purl": "pkg:pypi/torch-scatter@2.0.8",
+      "bom-ref": "pypi/torch-scatter@>=2.0.8"
+    },
+    {
+      "type": "library",
+      "name": "torch-cluster",
+      "version": ">=1.5.9",
+      "purl": "pkg:pypi/torch-cluster@1.5.9",
+      "bom-ref": "pypi/torch-cluster@>=1.5.9"
+    },
+    {
+      "type": "library",
+      "name": "numpy",
+      "version": ">=1.11",
+      "purl": "pkg:pypi/numpy@1.11",
+      "bom-ref": "pypi/numpy@>=1.11"
+    },
+    {
+      "type": "library",
+      "name": "rdkit-pypi",
+      "version": ">=2020.9",
+      "purl": "pkg:pypi/rdkit-pypi@2020.9",
+      "bom-ref": "pypi/rdkit-pypi@>=2020.9"
+    }
+  ]
+}
